@@ -1,28 +1,31 @@
-# School Exam Result Calculator (GUI + Charts + PDF)
+# 🎮 School Exam Result Calculator (Gaming Vibe GUI)
 
-This project now includes a **full GUI interface** where users can:
+This project now has a **fully gaming-vibe desktop GUI** with:
 
-- Enter student marks in an easy form
-- Instantly calculate result summary
-- View subject-level status in a table
-- Generate a **PDF report**
-- Include both **bar chart** and **pie chart** inside the PDF
+- 💜 Violet themed interface
+- 😍 Attractive emojis throughout UI
+- 📊 Subject result table with status badges
+- 🧾 PDF export support
+- 📉 Bar chart + 🥧 Pie chart in PDF report
 
 ## Features
 
-- ✅ Desktop GUI using Tkinter
-- ✅ Input validation (required, numeric, 0-100 range)
-- ✅ Grade and converted marks based on original rule
-- ✅ Subject-wise table view (`Raw`, `Converted`, `Status`)
-- ✅ PDF export with:
-  - Subject table
-  - Bar chart (subject-wise raw marks)
-  - Pie chart (performance distribution)
+- 🕹️ Interactive Tkinter GUI form
+- ✅ Input validation (required, numeric, 0-100)
+- 🧠 Original conversion and grade logic preserved
+- 🏆 Instant summary: grade, average, strongest, focus subject
+- 🎨 Gaming style color palette (dark violet + neon accents)
 
-## Formula / grading
+## PDF report includes
+
+- Student details and result table
+- Bar chart for subject-wise raw marks
+- Pie chart for performance distribution
+
+## Grading rules
 
 - Converted mark per subject: `(raw_mark * 70 / 100) + 30`
-- Final grade (based on converted average):
+- Final grade based on converted average:
   - `80+` → `A+`
   - `70+` → `A`
   - `60+` → `B`
@@ -38,13 +41,11 @@ python3 grade.py
 
 ## Dependencies
 
-This app uses:
-
-- `tkinter` (usually built into Python)
+- `tkinter` (usually included with Python)
 - `matplotlib`
 - `reportlab`
 
-If needed, install missing packages:
+Install if needed:
 
 ```bash
 pip install matplotlib reportlab
